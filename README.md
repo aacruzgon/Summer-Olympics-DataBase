@@ -57,12 +57,12 @@ The program will continously prompt the user for one of four possible commands
 - Manage Relationships
     - command _r_
 
-![Main Menu](https://gitlab.com/myself9450436/summer-olympics-database/-/raw/main/Images/MainMenu.png)
+![Main Menu](Images/MainMenu.png)
 
 When the command _e_ is executed in the terminal the following implementation for events occurs
 
 ### Events
-![Events Menu](https://gitlab.com/myself9450436/summer-olympics-database/-/raw/main/Images/EventsMenu.png)
+![Events Menu](Images/EventsMenu.png)
 1.	Insert a new event (using command i)
     - Prompt the user for the event code
         - This must be unique in your database and cannot conflict with an existing event code. 
@@ -106,7 +106,7 @@ When the command _e_ is executed in the terminal the following implementation fo
 When the command _a_ is executed in the terminal the following implementation for events occurs
 
 ### Athletes
-![Athlete Menu](https://gitlab.com/myself9450436/summer-olympics-database/-/raw/main/Images/AthleteMenu.png)
+![Athlete Menu](Images/AthleteMenu.png)
 1.	Insert a new athlete (using command i)
     - Prompt the user for the athlete code
         - This must be a unique integer in the database and cannot conflict with an existing event athlete code. 
@@ -149,7 +149,7 @@ When the command _a_ is executed in the terminal the following implementation fo
 When the command _r_ is executed in the terminal the following implementation for events occurs
 
 ### Event-Athlete Relationships
-![Event Athlete](https://gitlab.com/myself9450436/summer-olympics-database/-/raw/main/Images/Event-Athlete.png)
+![Event Athlete](Images/Event-Athlete.png)
 1. Insert a new event/athlete relationship (Command i)
     - Due to referential integrity, the event code entered by the user **must already exist** as a valid event in the database. In other words, an athlete cannot be a member of an event which doesn't exist yet.
     - Due to referential integrity, the athlete code entered by the user **must already exist** as a valid athlete in the database. In other words, an event cannot have an athlete which doesn't exist yet.
